@@ -49,14 +49,29 @@ through two stages (see Figure 1 of the paper).
 
 ## Datasets
 
-The study uses fifteen publicly available structural MRI datasets with a
-subject-level split. Eleven cohorts are pooled for training and validation
-(ADNI, IXI, ABIDE-II, DLBS, COBRE, FCON1000, CORR, OASIS-1, Cam-CAN, NIMH, and
-BOLD variability), and four fully held-out cohorts (SALD, SUDMEX-CONN, AgeRisk,
-and TrueCrime) are reserved for zero-shot cross-cohort evaluation. Refer to
-Table 1 of the paper for per-dataset demographics. The datasets are publicly
-available from their respective providers and are not redistributed in this
-repository.
+Fifteen publicly available structural MRI datasets are used. Eleven cohorts are
+pooled for training and validation; four are reserved as fully held-out cohorts
+for zero-shot cross-cohort evaluation. Datasets are not redistributed in this
+repository; refer to Table 1 of the paper for per-dataset demographics. Access
+requirements (registration, data-use agreements) vary by dataset.
+
+| Dataset | Role | Access |
+|---------|------|--------|
+| **ADNI** | Train/Val | [adni.loni.usc.edu](https://adni.loni.usc.edu/)  |
+| **IXI** | Train/Val | [nitrc.org/projects/ixi\_dataset](https://www.nitrc.org/projects/ixi_dataset) |
+| **ABIDE-II** | Train/Val | [fcon\_1000.projects.nitrc.org/indi/abide/abide\_II.html](http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html) |
+| **DLBS** | Train/Val | [openneuro.org/datasets/ds004856](https://openneuro.org/datasets/ds004856/versions/1.3.0) |
+| **COBRE** | Train/Val | [fcon\_1000.projects.nitrc.org/indi/retro/cobre.html](http://fcon_1000.projects.nitrc.org/indi/retro/cobre.html) |
+| **FCON1000** | Train/Val | [doi.org/10.17616/R3W05R](https://doi.org/10.17616/R3W05R) |
+| **CoRR** | Train/Val | [fcon\_1000.projects.nitrc.org/indi/CoRR/html](http://fcon_1000.projects.nitrc.org/indi/CoRR/html/index.html) |
+| **OASIS-1** | Train/Val | [sites.wustl.edu/oasisbrains](https://sites.wustl.edu/oasisbrains/) |
+| **Cam-CAN** | Train/Val | [cam-can.org](https://www.cam-can.org/) |
+| **NIMH** | Train/Val |  [https://openneuro.org/datasets/ds005752/versions/2.1.0](https://openneuro.org/datasets/ds005752/versions/2.1.0) |
+| **BOLD Variability** | Train/Val | [openneuro.org/datasets/ds005270](https://openneuro.org/datasets/ds005270/versions/1.0.0) |
+| **SALD** | Held-out | [fcon\_1000.projects.nitrc.org/indi/retro/sald.html](https://fcon_1000.projects.nitrc.org/indi/retro/sald.html) |
+| **SUDMEX-CONN** | Held-out | [openneuro.org/datasets/ds003346](https://openneuro.org/datasets/ds003346/versions/1.1.3) |
+| **AgeRisk** | Held-out | [openneuro.org/datasets/ds004711](https://openneuro.org/datasets/ds004711/versions/1.0.0) |
+| **TrueCrime** | Held-out | [openneuro.org/datasets/ds004965](https://openneuro.org/datasets/ds004965/versions/1.0.1) |
 
 ## Repository Organization
 
