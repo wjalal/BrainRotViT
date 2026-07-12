@@ -157,7 +157,7 @@ stack.
 ## Reproducing the Results
 
 1. **Preprocessing.** Skull-strip each dataset with the matching script in
-   [skullstrip_scripts/](skullstrip_scripts/), then run the harmonization
+   [skullstrip_scripts/](skullstrip_scripts/), then run the bias correction
    pipeline with the matching script in [preproc_scripts/](preproc_scripts/).
 2. **Training.** Train the model with
    [vit_dora_train_feature_cnn_main_mix_roi.py](vit_dora_train_feature_cnn_main_mix_roi.py),
