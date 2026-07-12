@@ -112,7 +112,7 @@ BrainRotViT/
   place the results in `model_dumps/` (ViT) and `model_dumps/mix/` (CNN) in the
   repository root. See [best_checkpoints/README.md](best_checkpoints/README.md).
 - **[preproc_scripts/](preproc_scripts/)** Per-dataset bash scripts implementing
-  the harmonization pipeline: skull stripping, N4 bias-field correction, affine
+  the bias correction pipeline: skull stripping, N4 bias-field correction, affine
   registration to a common template, cropping, resampling to 160 sagittal
   slices, and intensity normalization. One script per cohort.
 - **[skullstrip_scripts/](skullstrip_scripts/)** Per-dataset Python scripts for
